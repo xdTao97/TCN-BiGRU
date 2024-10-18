@@ -24,9 +24,9 @@ They are collected from the running spacecraft and contain a set of telemetry an
 ```
 
 ## Running code
-(1) First run preprocess.py to process the data set. Taking the SMAP data set as an example, the running results are as follows: <br>
-W
-(2) Run main.py again to get the model running results.
+(1) First run preprocess.py to process the data set. Taking the SMAP, MLS and SMD datasets.
+
+(2) Then, run main.py again to get the model running results.
 
 
 ## Notice
