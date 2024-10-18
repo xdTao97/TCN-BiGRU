@@ -33,15 +33,7 @@ W
 We can set parameters such as data set, multi-head graph attention and sliding window through the configuration file args.py, and the final running results will be saved in the output folder.
 
 
-## Experiment
-The model has been determined, and all experiments can be performed by modifying the parameters in the configuration file args.py.
-* (1) Basic experimental results can be obtained by modifying args.dataset. The two sets of data sets were subjected to ten experiments respectively, and the average value was calculated to obtain the final result. We show the running results in the folder output.
-The bf_result in the figure is the final result we used. Statistics on f1, precision, and recall get the TABLE II experimental results. Statistics on the AUC index are used to obtain the experimental results on AUC in Figures 4 and 5 in the paper.
-* (2) Statistics and calculation of epsilon_result and pot_result in summary.txt to obtain the experimental results of TABLE IV.
-* (3) Modify num_heads in the args.py file to 1, 2, 3, 4 to get the experimental results of Fig6.
-* (4) Modify the lookback value in the args.py file and set it to 30, 60, 60, 110, 130 to get the experimental results of Fig7.
-* (5) In TABLE III, we conducted Ablation Study. By annotating the corresponding modules in the mtad_gat.py file, the final experimental results are obtained. For the annotation module, please refer to the image_annotation image below:
 
-W
+
 
      
