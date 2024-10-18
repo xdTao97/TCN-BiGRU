@@ -2,11 +2,16 @@
 
 
 ## Datasets
-Download the MSL/SMAP dataset address:
 ```
-    wget https://s3-us-west-2.amazonaws.com/telemanom/data.zip && unzip data.zip && rm data.zip
+The following datasets are kindly released by different institutions or schools. Raw datasets could be downloaded or applied from the link right behind the dataset names. The processed datasets can be found here⬇️ (SMD, SMAP, and MSL).
 
-    cd data && wget https://raw.githubusercontent.com/khundman/telemanom/master/labeled_anomalies.csv
+Server Machine Datase (SMD) Download raw datasets⬇️
+
+Collected from a large Internet company containing a 5-week-long monitoring KPIs of 28 machines. The meaning for each KPI could be found here.
+
+Soil Moisture Active Passive satellite (SMAP) and Mars Science Laboratory rovel (MSL) Download raw datasets⬇️
+
+They are collected from the running spacecraft and contain a set of telemetry anomalies corresponding to actual spacecraft issues involving various subsystems and channel types.
 ```
 
 ## Installation
